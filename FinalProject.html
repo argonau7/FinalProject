@@ -53,6 +53,9 @@
   </nav>
 
   <!-- Swiper -->
+  <div class="netflix">
+
+ 
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/darkknight.jpg"> </div>
@@ -63,10 +66,11 @@
       <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/pulp.jpg"> </div>
       <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/twelveangry.jpg"> </div>
     </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
-
+</div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -86,12 +90,12 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
+      slidesPerView: 6,
+      spaceBetween: 40,
+      navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
     });
   </script>
 </body>
