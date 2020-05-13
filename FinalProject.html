@@ -6,15 +6,14 @@
   <title>My Final Project</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
   <!-- My CSS-->
   <link rel="stylesheet" href="FinalProject.css">
-
 
 </head>
 
@@ -52,29 +51,33 @@
     </div>
   </nav>
 
+  <div>
+    <button id="btn1"> 1</button>
+
+  </div>
   <!-- Swiper -->
   <div class="netflix">
-<h2 class="SliderTitle" > Recently trending </h2>
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide", id="imageone"><img src="'loadmovies()''"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/godfather.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/inception.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/schindlers.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/fightclub.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/pulp.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/twelveangry.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/inception.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/schindlers.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/fightclub.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/pulp.jpg"> </div>
-      <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/twelveangry.jpg"> </div>
+    <h2 class="SliderTitle"> Recently trending </h2>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"> <img src="" id="imageone" />  </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/godfather.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/inception.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/schindlers.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/fightclub.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/pulp.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/twelveangry.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/inception.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/schindlers.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/fightclub.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/pulp.jpg"> </div>
+        <div class="swiper-slide"> <img src="/home/lilu/Ignite/FinalProject/Media/Movie Posters/twelveangry.jpg"> </div>
+      </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
     </div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
   </div>
-</div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -87,8 +90,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
-  <script src="FinalProject.js"></script>
 
+  <script src="FinalProject.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.js"></script>
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <!-- Initialize Swiper -->
@@ -98,9 +101,9 @@
       spaceBetween: 10,
       slidesPerGroup: 4,
       navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
     });
   </script>
 </body>
