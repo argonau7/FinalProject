@@ -1,11 +1,13 @@
 async function loadMovies() {
-    let response = await fetch("http://www.omdbapi.com/?t=Lucifer&Season=1&apikey=91b6dc90")
+    let response = await fetch("http://www.omdbapi.com/?s=Batman&apikey=91b6dc90")
 
     let movies = await response.json();
     // below 'return' works and loads the poster but provides no console output but not needed once it works
-    return movies.Poster
+   // return movies.Poster
     // console.log was useful to check if loadMovies() actually fetched anyhing but not for below uri so now deactivated
-   //console.log(movies.Poster) //this works
+    //console.log(movies.Search[1].Poster)
+    return movies.Search[1].Poster
+   //console.log(movies) //this works
     
 }
 
