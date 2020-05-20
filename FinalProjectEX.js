@@ -13,6 +13,9 @@ async function loadMovies() {
   // Return the array
   return movies.Search
 }
+let img1 = document.querySelector('#imageone')
+let img2 = document.querySelector('#imagetwo')
+
 
 async function  main() {
 // Load movies
@@ -23,7 +26,8 @@ for (var index = 0; index < moviesArray.length; index++) {
   // Grab a reference to the movie at `index`
   const movie = moviesArray[index];
   const poster = movie.Poster
-  console.log(poster)
+
+ console.log(poster)
 
   // Print it for fun.
   //console.log("The movie object at index " + index + " is:");
