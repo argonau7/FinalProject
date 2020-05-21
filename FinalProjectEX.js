@@ -25,9 +25,13 @@ const moviesArray = await loadMovies()
 for (var index = 0; index < moviesArray.length; index++) {
   // Grab a reference to the movie at `index`
   const movie = moviesArray[index];
-  const poster = movie.Poster
+  var poster = movie.Poster
 
+
+// this now prints the URLS nicely
  console.log(poster)
+
+console.log[img1].src // = poster.src
 
   // Print it for fun.
   //console.log("The movie object at index " + index + " is:");
