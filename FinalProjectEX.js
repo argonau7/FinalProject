@@ -2,7 +2,7 @@
 //function loaditall() {
 
   async function loadMovies() {
-    let response = await fetch("http://www.omdbapi.com/?s=knight&apikey=91b6dc90")
+    let response = await fetch("http://www.omdbapi.com/?s=trek&apikey=91b6dc90")
     let movies = await response.json();
     
     // // What's in movies
@@ -45,6 +45,7 @@
   
   
   }
+  
   }
 
   window.onload = main()
