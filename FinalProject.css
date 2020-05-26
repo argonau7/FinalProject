@@ -17,39 +17,34 @@ html, body {
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #343940;
       /* Center slide text vertically */
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: -webkit-flex;
       display: flex;
       -webkit-box-pack: center;
       -ms-flex-pack: center;
-      -webkit-justify-content: center;
       justify-content: center;
       -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
       align-items: center;
-  }
+      width: 161.333px;
+      height: auto;
+      margin-right: 10px;
+      object-fit: fill;  }
 
-  .netflix .swiper-slide {
-    -webkit-transition: 250ms all;
+  .swiper-slide {
     transition: 250ms all;
   } 
 
-  .netflix .swiper-slide:hover {
-        -webkit-transform: scale(1.2);
+  .swiper-slide:hover {
         transform: scale(1.2);
         z-index: 1;
       }
 
       /* helps first image of slide not to get cut out*/
-   .netflix .swiper-slide:first-child:hover {
+   .netflix.swiper-slide:first-child:hover {
         margin: 0 40px;
       }
             /* helps last image of slide not to get cut out*/
-  .netflix .swiper-slide:last-child:hover {
+  .netflix.swiper-slide:last-child:hover {
         margin: 0 -40px;
       }
 
