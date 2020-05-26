@@ -46,6 +46,8 @@
   
   }
   }
+
+  window.onload = main()
   
   // async function loadMovies2() {
   //   let response = await fetch("http://www.omdbapi.com/?s=sex&apikey=91b6dc90")
