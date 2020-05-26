@@ -26,9 +26,9 @@ html, body {
       -webkit-box-align: center;
       align-items: center;
       width: 161.333px;
-      height: auto;
+      
       margin-right: 10px;
-      object-fit: fill;  }
+       }
 
   .swiper-slide {
     transition: 250ms all;
@@ -53,9 +53,9 @@ padding: 20px 0;
   }
 
   
-  .netflix>img{
+  .swiper-wrapper img{
           max-width: 100%;
-          height: auto;      
+          height: 100%;      
   }
 
   .netflix {
